@@ -1,0 +1,6 @@
+Here is how to change path.
+# copy the directory into newrepo dir that exists already (else create it)
+$ cp -r gitrepo1 newrepo
+
+# remove .git from old repo to delete all history and anything git from it
+$ rm -rf gitrepo1/.git
